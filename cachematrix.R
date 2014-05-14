@@ -29,11 +29,11 @@ makeCacheMatrix <- function(X = matrix()) {
 
 
 # cacheSolve returns the inverse of matrix X by calculating it or
-# retrieving it from the Cache
+# retrieving it from the Cache.
 
 cacheSolve <- function(X, ...) {
         
-        #Checks whether the inverse function of makeCacheMatrix's
+        #Checks whether the setsolve function of makeCacheMatrix's
         #special "matrix" has already calculated the required inverse.
         
         #If yes, gets the inverse from the Cache and returns it as it
@@ -56,7 +56,7 @@ cacheSolve <- function(X, ...) {
 
 
 
-# Trying out how the above functions work
+# Trying out how the above functions work:
 TESTcachematrix <- function(X=matrix(rnorm(25),nrow=5)) {
         readline("           PRESS A KEY")
         #X <- matrix(rnorm(25),nrow=5)
@@ -83,11 +83,10 @@ TESTcachematrix <- function(X=matrix(rnorm(25),nrow=5)) {
         
         readline("           PRESS A KEY")
         CachedM <- makeCacheMatrix(M)
-        print("inverse of a matrix with 1st run of cacheSolve:")
+        print("inverse of a matrix with 1st run of cacheSolve():")
         print(cacheSolve(CachedM))
         
         readline("           PRESS A KEY")
-        print("inverse of a matrix with 2nd run of cacheSolve:")
+        print("inverse of a matrix with 2nd run of cacheSolve():")
         print(cacheSolve(CachedM))
-        
 }
