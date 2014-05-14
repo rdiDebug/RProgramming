@@ -83,11 +83,10 @@ TESTcachematrix <- function(X=matrix(rnorm(25),nrow=5)) {
         
         readline("           PRESS A KEY")
         CachedM <- makeCacheMatrix(M)
-        print("inverse of a matrix with 1st run of cacheSolve:")
+        print("inverse of a matrix with 1st run of cacheSolve():")
         print(cacheSolve(CachedM))
         
         readline("           PRESS A KEY")
-        print("inverse of a matrix with 2nd run of cacheSolve:")
+        print("inverse of a matrix with 2nd run of cacheSolve():")
         print(cacheSolve(CachedM))
-        
 }

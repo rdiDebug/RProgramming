@@ -20,3 +20,4 @@ CourseraClass
     ...Done
 5.  Submit to Coursera the URL to your GitHub repository that contains
     the completed R code for the assignment.
+    ...Done
