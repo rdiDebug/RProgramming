@@ -4,6 +4,7 @@ CourseraClass
 ##Repo for the "Data Science" specialization
 
 ###R Programming Assignment: Caching the Inverse of a Matrix (cachematrix.R)
+
 1.  Fork the GitHub repository containing the stub R files at
     [https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2)
     to create a copy under your own account.
